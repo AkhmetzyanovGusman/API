@@ -6,7 +6,7 @@ API-сервис для учета событий в системах город
 
 **1. Установите зависимости:**
 
-   pip install -r requirements.txt
+      pip install -r requirements.txt
 
 **2. Запустите сервер:**
 
