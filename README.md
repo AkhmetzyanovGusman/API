@@ -6,12 +6,15 @@ API-сервис для учета событий в системах город
 
 1. Установите зависимости:
 
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 2. Запустите сервер:
-uvicorn app.main:app --reload
 
-3. Откройте документацию API: http://127.0.0.1:8000/docs
+    uvicorn app.main:app --reload
+
+3. Откройте документацию API: 
+
+   http://127.0.0.1:8000/docs
 
 ## Эндпоинты
 
