@@ -4,15 +4,15 @@ API-сервис для учета событий в системах город
 
 ## Запуск приложения
 
-1. Установите зависимости:
+**1. Установите зависимости:**
 
    pip install -r requirements.txt
 
-2. Запустите сервер:
+**2. Запустите сервер:**
 
     uvicorn app.main:app --reload
 
-3. Откройте документацию API: 
+**3. Откройте документацию API:**
 
    http://127.0.0.1:8000/docs
 
@@ -76,19 +76,16 @@ API-сервис для учета событий в системах город
 **Примеры команд curl:
 Создать событие:**
 
-  bash
   curl -X POST "http://127.0.0.1:8000/incidents/" \
        -H "Content-Type: application/json" \
        -d '{"description": "Точка не отвечает", "source": "monitoring"}'
 
 **Получить все события:**
 
-    bash
     curl "http://127.0.0.1:8000/incidents/"
     
 **Обновить статус:**
 
-    bash
     curl -X PATCH "http://127.0.0.1:8000/incidents/1" \
          -H "Content-Type: application/json" \
          -d '{"status": "resolved"}'
