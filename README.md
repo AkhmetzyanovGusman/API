@@ -93,11 +93,11 @@ API-сервис для учета событий в системах город
 
 ## Структура проекта
 
-   incident_api/
-   ├── app/
-   │   ├── main.py          # Основное приложение FastAPI
-   │   ├── models.py        # Модели базы данных
-   │   ├── schemas.py       # Pydantic схемы
-   │   └── database.py      # Настройки базы данных
-   ├── requirements.txt     # Зависимости
-   └── incidents.db        # Файл базы данных (создается автоматически)
+         incident_api/
+         ├── app/
+         │   ├── main.py          # Основное приложение FastAPI
+         │   ├── models.py        # Модели базы данных
+         │   ├── schemas.py       # Pydantic схемы
+         │   └── database.py      # Настройки базы данных
+         ├── requirements.txt     # Зависимости
+         └── incidents.db        # Файл базы данных (создается автоматически)
