@@ -77,9 +77,9 @@ API-сервис для учета событий в системах город
 
 **Создать событие:**
 
-  curl -X POST "http://127.0.0.1:8000/incidents/" \
-       -H "Content-Type: application/json" \
-       -d '{"description": "Точка не отвечает", "source": "monitoring"}'
+     curl -X POST "http://127.0.0.1:8000/incidents/" \
+          -H "Content-Type: application/json" \
+          -d '{"description": "Точка не отвечает", "source": "monitoring"}'
 
 **Получить все события:**
 
@@ -91,7 +91,7 @@ API-сервис для учета событий в системах город
          -H "Content-Type: application/json" \
          -d '{"status": "resolved"}'
 
-**Структура проекта**
+## Структура проекта
 
    incident_api/
    ├── app/
